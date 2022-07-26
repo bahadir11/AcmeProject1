@@ -1,16 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acme Web Design</title>
+    <link rel = "icon" href = 
+    "https://miro.medium.com/max/1400/0*d3dQ5pLFhUGpm0ZU.png" 
+            type = "image/x-icon">
+    <style>
+        html {
+            background-color: grey;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        body {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        header {
+            color: rgb(243, 237, 237);
+            background-color: rgb(77, 73, 73);
+            margin-top: 0%;
+            padding-top: 0%;
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+
+        }
+
+        #acme {
+            color: orangered;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: x-large;
+
+        }
+
+        a:hover {
+            color: orangered;
+        }
+
+        .header {
+            font-size: x-large;
+            text-align: center;
+            top: 40px;
+        }
+        .navigation{
+            text-align: center;
+        }
+        #hr{
+            color: orangered;
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .backroundimagep{
+            margin-top: 0%;
+            padding-top: 0%;
+            color: white;
+            font-size: xx-large;
+            text-align: center;
+            background-image: url(https://images.unsplash.com/photo-1594398985750-3b54ec074a0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29tcHV0ZXIlMjBkYXJrfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+        
+        }
+        .subscribe{
+            font-size: larger;
+            color: white;
+            background-color: rgb(77, 73, 73);
+            text-align: center;
+
+        }
+        #form{
+            width:40% ;
+            height: 30px;
+        }
+        #form2{
+            font-size: larger;
+            width: 40%;
+            color: white;
+            background-color: orangered;
+            border: none;
+        }
+        .boxes{
+            background-color: rgb(219, 219, 219);
+            text-align: center;
+            font-size:x-large;
+        }
+        footer{
+            font-size: x-large;
+            background-color: orangered;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni sit mollitia, ipsam alias maxime eveniet aliquid quibusdam itaque quae officia asperiores obcaecati voluptate aliquam esse, in error libero sed!</p>
-    </div>
-    <div> <a href="">asdfsdafsdf</a></div>
-    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <header><br><br>
+        <div class="header">
+            <h1><span id="acme">Acme</span> Web Design</h1>
+        </div>
+        <div class="navigation">
+            <nav><a href="index.html"><span id="acme">Home  </span> </a><img
+                src="https://sumitmangela.github.io/hotel/images/circle.png" alt="">
+                <a href="about.html">About   </a><img
+                src="https://sumitmangela.github.io/hotel/images/circle.png" alt=""> <a href="services.html">   Services</a></nav>
+        </div>
+        <br><br><br>
+        <hr id="hr" style="border: 3px solid orangered;">
+    </header>
+    <section class="middle">
+        <div class="backroundimagep"><br><p ><div><h1>Affordable Professional Web Design</h1></div><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam <br> eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit <br> amet sem interdum condimentum.</p></div></p><br></div>
+        <div class="subscribe">
+            <div><br><h1>Subscribe To Our Newsletter</h1></div>
+            <form action="" method="get" >
+
+                <input id="form" type="email" name="email" placeholder="Enter Email">
+                <br><br>
+                <button id="form2"type="submit" value="Subscribe" name="sub">Subscribe</button>
+            </form><br><br>
+        </div>
+    </section>
+    <section class="boxes"><br><br>
+        <div class="box1">
+            <div><img src="https://yellow-wish.surge.sh/images/logo_html.png" alt=""></div>
+            <div><h2>HTML5 Markup</h2></div>
+            <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit <br>
+                 amet ultricies</p></div>
+        </div>
+        <div class="box2">
+            <div><img src="https://yellow-wish.surge.sh/images/logo_css.png" alt=""></div>
+            <div><h2>CSS3 Styling</h2></div>
+            <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit <br>
+                 amet ultricies</p></div>
+        </div> <div class="box3">
+            <div><img src="https://yellow-wish.surge.sh/images/logo_brush.png" alt=""></div>
+            <div><h2>Graphic Design</h2></div>
+            <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit <br>
+                 amet ultricies</p></div>
+        </div><br><br><br>
+    </section>
+    <footer><br>
+        <p>Acme Web Deisgn, Copyright © 2017</p><br>
+    </footer>
 </body>
+
 </html>

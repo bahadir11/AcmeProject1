@@ -1,17 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acme Web Design</title>
+    <link rel = "icon" href = 
+    "https://miro.medium.com/max/1400/0*d3dQ5pLFhUGpm0ZU.png" 
+            type = "image/x-icon">
+    <style>
+        html {
+            background-color: grey;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        body {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        header {
+            color: rgb(243, 237, 237);
+            background-color: rgb(77, 73, 73);
+            margin-top: 0%;
+            padding-top: 0%;
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+
+        }
+
+        #acme {
+            color: orangered;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: x-large;
+
+        }
+
+        a:hover {
+            color: orangered;
+        }
+
+        .header {
+            font-size: x-large;
+            text-align: center;
+            top: 40px;
+        }
+
+        .navigation {
+            text-align: center;
+        }
+
+        .subscribe {
+            font-size: larger;
+            color: white;
+            background-color: rgb(77, 73, 73);
+            text-align: center;
+
+        }
+
+        #hr {
+            color: orangered;
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+
+        #form {
+            width: 40%;
+            height: 30px;
+        }
+
+        #form2 {
+            font-size: larger;
+            width: 40%;
+            color: white;
+            background-color: orangered;
+            border: none;
+        }
+
+        .paragraf {
+            background-color: rgb(235, 235, 235);
+            color: black;
+            text-align: center;
+        }
+        #tablex{
+            width: 100%;
+            padding-right: 25%;
+            padding-left: 25%;
+        }
+        .bottomex{
+            text-align: center;
+            background-color: rgb(77, 73, 73);
+            color: white;
+            background-position: center;
+            width: 100%;
+            padding-right: 10%;
+            padding-left: 10%;
+            
+        }
+        footer{
+            font-size: x-large;
+            background-color: orangered;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    <section>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus nihil tempore nisi rem deleniti natus in voluptate doloribus eius quo velit enim, eligendi autem perferendis molestias aut quasi quam!</p>
+    <header><br><br>
+        <div class="header">
+            <h1><span id="acme">Acme</span> Web Design</h1>
         </div>
+        <div class="navigation">
+            <nav><a href="index.html"><span id="acme">Home </span> </a><img
+                    src="https://sumitmangela.github.io/hotel/images/circle.png" alt="">
+                <a href="about.html">About </a><img src="https://sumitmangela.github.io/hotel/images/circle.png" alt="">
+                <a href="services.html"> Services</a></nav>
+        </div>
+        <br><br><br>
+        <hr id="hr" style="border: 3px solid orangered;">
+    </header>
+    <section class="middle">
+        <div class="subscribe">
+            <div><br>
+                <h1>Subscribe To Our Newsletter</h1>
+            </div>
+            <form action="" method="get">
+
+                <input id="form" type="email" name="email" placeholder="Enter Email">
+                <br><br>
+                <button id="form2" type="submit" value="Subscribe" name="sub">Subscribe</button>
+            </form><br><br>
+            <div class="paragraf"><br><br>
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec <br> feugiat.
+                    Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit <br> eros, dapibus eget
+                    porta in, lacinia et magna. Nam eget eros non orci consectetur congue<br> at ac augue. Proin eget
+                    arcu in enim feugiat ultricies. Curabitur maximus metus nec<br> metus pretium viverra at et orci.
+                    Integer hendrerit ante ut placerat cursus.</p><br>
+                <p>Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui <br> tincidunt.
+                    Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo <br> feugiat a.
+                    Praesent id dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor <br> lorem sapien, in
+                    aliquet sapien convallis et. Donec nec mauris nulla. Curabitur cursus<br> semper odio, et hendrerit
+                    ante. Nunc at cursus ante. Maecenas gravida ligula ut efficitur <br> suscipit. Nulla id turpis
+                    varius, pretium nunc sed, fermentum sem. Sed lacinia nunc non<br> interdum pellentesque.</p>
+                <div ><br>
+                    <table id="tablex"><tr><td class="bottomex"> <h1>What We Do</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus<br> nec
+                        feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam <br>velit eros,
+                        dapibus eget porta in, lacinia et magna.</p><br></td></tr></table>
+                   
+                </div>
+            </div>
     </section>
-    
+    <footer><br>
+        <p>Acme Web Deisgn, Copyright © 2017</p><br>
+    </footer>
 </body>
+
 </html>
